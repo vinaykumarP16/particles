@@ -1,0 +1,70 @@
+body{
+	margin: 0;
+	padding: 0;
+	height:100vh;
+}
+
+#particles-js{
+	height: 100%;
+	background: grey;
+	
+}
+
+#text{
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	transform: translate(50%, -50%);
+	color: #fff;
+	max-width: 90%;
+	text-align: justify;
+	padding: 2em 3em;
+	background: rgba(0, 0, 0, 0.4);
+	text-shadow: 0px 0px 2px #131415;
+	font-family: consolas;
+	border-radius: 20px;
+}
+h1{
+	font-size: 2.25em;
+	font-weight: 700;
+	letter-spacing: 5px;
+	text-align:center;
+	text-transform: uppercase;
+}
+
+p{
+	text-align:center;
+}
+
+#part{
+	color: orange;
+	text-decoration: none;
+}
+
+#part:hover{
+	color: yellow;
+}
+
+
+a{
+	display: inline-flex;
+	margin: 10px;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	color: white;
+	font-size: 15px;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 3px;
+}
+
+#text button a{
+	align-items: center;
+	justify-content: center;
+	text-align:center;
+	display: flex;
+	color: white;
+	font-size: 12px;
+	background-color: grey;
+}
+
